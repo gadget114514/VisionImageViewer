@@ -1,0 +1,339 @@
+#include <windows.h>
+#include "resource.h"
+
+// Menu
+IDR_VIEWERMENU MENU
+BEGIN
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Fullscreen\tEsc", IDM_VIEW_FULLSCREEN
+        MENUITEM "Shrink Window to Match Image", IDM_VIEW_SHRINK_TO_FIT
+        MENUITEM SEPARATOR
+        POPUP "&Zoom"
+        BEGIN
+            MENUITEM "50%", IDM_VIEW_ZOOM_50
+            MENUITEM "100%", IDM_VIEW_ZOOM_100
+            MENUITEM "200%", IDM_VIEW_ZOOM_200
+            MENUITEM "300%", IDM_VIEW_ZOOM_300
+            MENUITEM "400%", IDM_VIEW_ZOOM_400
+            MENUITEM "500%", IDM_VIEW_ZOOM_500
+            MENUITEM "Fit to Window", IDM_VIEW_ZOOM_FIT
+            MENUITEM "Fit to Width", IDM_VIEW_ZOOM_WIDTH
+            MENUITEM "Fit to Height", IDM_VIEW_ZOOM_HEIGHT
+        END
+        MENUITEM "Magnifying Glass", IDM_VIEW_MAGNIFIER
+    END
+    POPUP "&Navigate"
+    BEGIN
+        MENUITEM "&Next Image", IDM_VIEW_NEXT
+        MENUITEM "&Prev Image", IDM_VIEW_PREV
+    END
+END
+
+IDR_MAINMENU MENU
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&Open...", IDM_FILE_OPEN
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit", IDM_FILE_EXIT
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Thumbnails", IDM_VIEW_THUMB
+        MENUITEM "&Details", IDM_VIEW_DETAILS
+        MENUITEM "Shrink Window to Match Image", IDM_VIEW_SHRINK_TO_FIT
+        MENUITEM SEPARATOR
+        POPUP "&Zoom"
+        BEGIN
+            MENUITEM "50%", IDM_VIEW_ZOOM_50
+            MENUITEM "100%", IDM_VIEW_ZOOM_100
+            MENUITEM "200%", IDM_VIEW_ZOOM_200
+            MENUITEM "300%", IDM_VIEW_ZOOM_300
+            MENUITEM "400%", IDM_VIEW_ZOOM_400
+            MENUITEM "500%", IDM_VIEW_ZOOM_500
+            MENUITEM "Fit to Window", IDM_VIEW_ZOOM_FIT
+            MENUITEM "Fit to Width", IDM_VIEW_ZOOM_WIDTH
+            MENUITEM "Fit to Height", IDM_VIEW_ZOOM_HEIGHT
+        END
+    END
+    POPUP "&Config"
+    BEGIN
+        MENUITEM "&General Settings...", IDM_CONFIG
+        MENUITEM "&Folder Settings...", IDM_CONFIG_FOLDERS
+    END
+    POPUP "&Plugin"
+    BEGIN
+        MENUITEM "&Configuration...", IDM_HELP_PLUGINS
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About", IDM_HELP_ABOUT
+    END
+END
+
+
+
+
+// Context Menu
+IDR_CONTEXT_MENU MENU
+BEGIN
+    POPUP "Context"
+    BEGIN
+        POPUP "&Zoom"
+        BEGIN
+            MENUITEM "50%", IDM_VIEW_ZOOM_50
+            MENUITEM "100%", IDM_VIEW_ZOOM_100
+            MENUITEM "200%", IDM_VIEW_ZOOM_200
+            MENUITEM "300%", IDM_VIEW_ZOOM_300
+            MENUITEM "400%", IDM_VIEW_ZOOM_400
+            MENUITEM "500%", IDM_VIEW_ZOOM_500
+            MENUITEM "Fit to Window", IDM_VIEW_ZOOM_FIT
+            MENUITEM "Fit to Width", IDM_VIEW_ZOOM_WIDTH
+            MENUITEM "Fit to Height", IDM_VIEW_ZOOM_HEIGHT
+        END
+        MENUITEM "Magnifying Glass", IDM_VIEW_MAGNIFIER
+        MENUITEM "Shrink Window to Match Image", IDM_VIEW_SHRINK_TO_FIT
+        MENUITEM SEPARATOR
+
+        POPUP "Move to"
+        BEGIN
+            MENUITEM "1", IDM_MOVETO_1
+            MENUITEM "2", IDM_MOVETO_2
+            MENUITEM "3", IDM_MOVETO_3
+            MENUITEM "4", IDM_MOVETO_4
+            MENUITEM "5", IDM_MOVETO_5
+            MENUITEM "6", IDM_MOVETO_6
+            MENUITEM "7", IDM_MOVETO_7
+            MENUITEM "8", IDM_MOVETO_8
+            MENUITEM "9", IDM_MOVETO_9
+            MENUITEM "0", IDM_MOVETO_0
+        END
+
+        POPUP "Copy to"
+        BEGIN
+            MENUITEM "1", IDM_COPYTO_1
+            MENUITEM "2", IDM_COPYTO_2
+            MENUITEM "3", IDM_COPYTO_3
+            MENUITEM "4", IDM_COPYTO_4
+            MENUITEM "5", IDM_COPYTO_5
+            MENUITEM "6", IDM_COPYTO_6
+            MENUITEM "7", IDM_COPYTO_7
+            MENUITEM "8", IDM_COPYTO_8
+            MENUITEM "9", IDM_COPYTO_9
+            MENUITEM "0", IDM_COPYTO_0
+        END
+
+        MENUITEM "Rename", IDM_CTX_RENAME
+        MENUITEM "Delete", IDM_CTX_DELETE
+        MENUITEM "Properties", IDS_CTX_PROPERTIES
+        MENUITEM SEPARATOR
+        MENUITEM "Back to Explorer", IDM_VIEW_BACK
+        MENUITEM SEPARATOR
+        MENUITEM "Refresh", IDM_VIEW_REFRESH
+    END
+END
+
+
+// Rename Dialog
+IDD_RENAME DIALOGEX 0, 0, 200, 60
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Rename File"
+FONT 9, "Segoe UI"
+BEGIN
+    LTEXT           "New Name:",IDC_STATIC,10,10,50,8
+    EDITTEXT        IDC_EDIT_RENAME,10,20,180,14,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,90,40,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,145,40,50,14
+END
+
+// Config Dialog
+IDD_CONFIG DIALOGEX 0, 0, 300, 180
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Configuration"
+FONT 9, "Segoe UI"
+BEGIN
+    GROUPBOX        "View Mode",IDC_STATIC,10,10,280,40
+    CONTROL         "Single Page",IDC_RADIO_SINGLE,"Button",BS_AUTORADIOBUTTON | WS_GROUP,20,22,60,10
+    CONTROL         "Spread (Open Spread)",IDC_RADIO_SPREAD,"Button",BS_AUTORADIOBUTTON,90,22,80,10
+
+    GROUPBOX        "Appearance",IDC_STATIC,10,60,280,45
+    LTEXT           "Thumbnail Size (px):",IDC_STATIC,20,72,80,8
+    EDITTEXT        IDC_EDIT_THUMB_SIZE,100,70,40,14,ES_AUTOHSCROLL | ES_NUMBER
+    
+    // Plugin Config Button
+    PUSHBUTTON      "Plugin Configuration...",IDC_BTN_PLUGIN_CONF,20,88,100,14
+
+    // Folder Settings Button (Convenience)
+    PUSHBUTTON      "Folder Settings (1-0 Keys)...",IDM_CONFIG_FOLDERS,130,88,100,14
+
+    GROUPBOX        "Key Bindings (0-9)",IDC_STATIC,10,110,280,35
+    CONTROL         "Move to Folder",IDC_RADIO_MOVE,"Button",BS_AUTORADIOBUTTON | WS_GROUP,20,125,70,10
+    CONTROL         "Copy to Folder",IDC_RADIO_COPY,"Button",BS_AUTORADIOBUTTON,100,125,70,10
+
+    GROUPBOX        "Magnifying Glass",IDC_STATIC,10,145,280,45
+    CONTROL         "Enable Magnifying Glass",IDC_CHECK_ENABLE_MAG,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,20,157,100,10
+    LTEXT           "Size:",IDC_STATIC,20,170,20,8
+    EDITTEXT        IDC_EDIT_MAG_SIZE,45,168,40,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Zoom:",IDC_STATIC,100,170,25,8
+    EDITTEXT        IDC_EDIT_MAG_ZOOM,130,168,40,14,ES_AUTOHSCROLL | ES_NUMBER
+
+    DEFPUSHBUTTON   "OK",IDOK,190,195,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,245,195,50,14
+END
+
+
+
+// Folder Settings Dialog
+IDD_FOLDER_SETTINGS DIALOGEX 0, 0, 320, 240
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Folder Settings (Keys 1-9, 0)"
+FONT 9, "Segoe UI"
+BEGIN
+    LTEXT           "Key 1:",IDC_STATIC,10,12,20,8
+    EDITTEXT        IDC_EDIT_FOLDER_1,35,10,220,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Browse...",IDC_BTN_BROWSE_0 + 1,260,10,50,14
+
+    LTEXT           "Key 2:",IDC_STATIC,10,32,20,8
+    EDITTEXT        IDC_EDIT_FOLDER_1 + 1,35,30,220,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Browse...",IDC_BTN_BROWSE_0 + 2,260,30,50,14
+
+    LTEXT           "Key 3:",IDC_STATIC,10,52,20,8
+    EDITTEXT        IDC_EDIT_FOLDER_1 + 2,35,50,220,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Browse...",IDC_BTN_BROWSE_0 + 3,260,50,50,14
+    
+    LTEXT           "Key 4:",IDC_STATIC,10,72,20,8
+    EDITTEXT        IDC_EDIT_FOLDER_1 + 3,35,70,220,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Browse...",IDC_BTN_BROWSE_0 + 4,260,70,50,14
+
+    LTEXT           "Key 5:",IDC_STATIC,10,92,20,8
+    EDITTEXT        IDC_EDIT_FOLDER_1 + 4,35,90,220,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Browse...",IDC_BTN_BROWSE_0 + 5,260,90,50,14
+
+    LTEXT           "Key 6:",IDC_STATIC,10,112,20,8
+    EDITTEXT        IDC_EDIT_FOLDER_1 + 5,35,110,220,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Browse...",IDC_BTN_BROWSE_0 + 6,260,110,50,14
+
+    LTEXT           "Key 7:",IDC_STATIC,10,132,20,8
+    EDITTEXT        IDC_EDIT_FOLDER_1 + 6,35,130,220,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Browse...",IDC_BTN_BROWSE_0 + 7,260,130,50,14
+
+    LTEXT           "Key 8:",IDC_STATIC,10,152,20,8
+    EDITTEXT        IDC_EDIT_FOLDER_1 + 7,35,150,220,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Browse...",IDC_BTN_BROWSE_0 + 8,260,150,50,14
+
+    LTEXT           "Key 9:",IDC_STATIC,10,172,20,8
+    EDITTEXT        IDC_EDIT_FOLDER_1 + 8,35,170,220,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Browse...",IDC_BTN_BROWSE_0 + 9,260,170,50,14
+
+    LTEXT           "Key 0:",IDC_STATIC,10,192,20,8
+    EDITTEXT        IDC_EDIT_FOLDER_0,35,190,220,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Browse...",IDC_BTN_BROWSE_0,260,190,50,14
+
+    DEFPUSHBUTTON   "OK",IDOK,200,215,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,255,215,50,14
+END
+
+// Move Confirmation Dialog
+IDD_MOVE_CONFIRM DIALOGEX 0, 0, 300, 120
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Confirm Move"
+FONT 9, "Segoe UI"
+BEGIN
+    ICON            "",IDC_STATIC_THUMB,10,10,32,32, SS_REALSIZEIMAGE
+    LTEXT           "Move this file?",IDC_STATIC,50,10,200,8
+    LTEXT           "From:",IDC_STATIC,50,25,30,8
+    LTEXT           "...",IDC_STATIC_FROM,85,25,200,8, SS_PATHELLIPSIS
+    LTEXT           "To:",IDC_STATIC,50,45,30,8
+    LTEXT           "...",IDC_STATIC_TO,85,45,200,8, SS_PATHELLIPSIS
+    
+    DEFPUSHBUTTON   "OK",IDOK,180,95,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,235,95,50,14
+END
+
+// Properties Dialog
+IDD_PROPERTIES DIALOGEX 0, 0, 300, 250
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Image Properties"
+FONT 9, "Segoe UI"
+BEGIN
+    LISTBOX         IDC_LIST_PROPERTIES,10,10,280,200,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_HSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "Close",IDOK,240,220,50,14
+END
+
+// String Tables
+STRINGTABLE LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+BEGIN
+    IDS_APP_TITLE       "VisionImageViewer"
+    IDS_CONFIRM_MOVE    "Move %s to %s?"
+    IDS_MOVE_TITLE      "Confirm Move"
+    IDS_ERROR_NO_FOLDER "No folder assigned to this key. Please configure in Folder Settings."
+    IDS_ERROR_PATH      "Assigned folder does not exist."
+    IDS_CTX_PROPERTIES  "Properties..."
+
+    IDS_CONFIRM_TITLE   "Confirm Move"
+    IDS_RENAME_TITLE    "Rename File"
+    IDS_DELETE_CONFIRM  "Are you sure you want to move '%s' to the Recycle Bin?"
+    IDS_DELETE_TITLE    "Confirm Delete"
+END
+
+/*
+STRINGTABLE LANGUAGE LANG_JAPANESE, SUBLANG_DEFAULT
+BEGIN
+    IDS_APP_TITLE       "VisionImageViewer"
+    IDS_CONFIRM_MOVE    "%s \u3092 %s \u306B\u79FB\u52D5\u3057\u307E\u3059\u304B\uff1f"
+    IDS_MOVE_TITLE      "移動の確認"
+    IDS_ERROR_NO_FOLDER "このキーにはフォルダが割り当てられていません。フォルダ設定で設定してください。"
+    IDS_ERROR_PATH      "割り当てられたフォルダが存在しません。"
+    IDS_ANALYSIS_DONE   "分析が完了しました。.visionフォルダを確認してください。"
+    IDS_ANALYSIS_FAIL   "分析に失敗しました。"
+    IDS_CTX_PROPERTIES  "プロパティ..."
+    IDS_CTX_BACK        "エクスプローラに戻る"
+    IDS_CTX_ANALYZE     "画像を分析"
+    IDS_CONFIRM_TITLE   "移動の確認"
+    IDS_RENAME_TITLE    "名前の変更"
+    IDS_DELETE_CONFIRM  "'%s' をゴミ箱に移動しますか？"
+    IDS_DELETE_TITLE    "削除の確認"
+END
+*/
+
+// Plugin List Dialog (Read only list)
+IDD_PLUGIN_LIST DIALOGEX 0, 0, 200, 150
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Loaded Plugins"
+FONT 9, "Segoe UI"
+BEGIN
+    LISTBOX         IDC_LIST_PLUGINS,10,10,180,100,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "OK",IDOK,140,120,50,14
+END
+
+// Plugin Settings Dialog (Priority & Enable)
+IDD_PLUGIN_SETTINGS DIALOGEX 0, 0, 250, 200
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Plugin Priorities"
+FONT 9, "Segoe UI"
+BEGIN
+    LTEXT           "Plugins (Top has highest priority):",IDC_STATIC,10,10,150,8
+    LISTBOX         IDC_LIST_PLUGIN_ORDER,10,20,180,140,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    
+    PUSHBUTTON      "Up",IDC_BTN_UP,200,40,40,14
+    PUSHBUTTON      "Down",IDC_BTN_DOWN,200,60,40,14
+    
+    CONTROL         "Enable Selected Plugin",IDC_CHECK_ENABLE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,10,165,100,10
+    
+    DEFPUSHBUTTON   "OK",IDOK,140,180,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,195,180,50,14
+END
+
+// About Dialog
+IDD_ABOUT DIALOGEX 0, 0, 150, 80
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About"
+FONT 9, "Segoe UI"
+BEGIN
+    LTEXT           "VisionImageViewer",IDC_STATIC,0,10,150,8,SS_CENTER
+    LTEXT           "Version 1.0",IDC_STATIC,0,25,150,8,SS_CENTER
+    LTEXT           "Powered by Susie Plugins",IDC_STATIC,0,40,150,8,SS_CENTER
+
+    DEFPUSHBUTTON   "OK",IDOK,50,55,50,14
+END

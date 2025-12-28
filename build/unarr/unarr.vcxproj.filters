@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\ws\VisionPhoto\unarr\_7z\_7z.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ws\VisionPhoto\unarr\common\conv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ws\VisionPhoto\unarr\common\crc32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ws\VisionPhoto\unarr\common\stream.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ws\VisionPhoto\unarr\common\unarr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ws\VisionPhoto\unarr\lzmasdk\CpuArch.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ws\VisionPhoto\unarr\lzmasdk\Ppmd7.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ws\VisionPhoto\unarr\lzmasdk\Ppmd8.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ws\VisionPhoto\unarr\lzmasdk\Ppmd7Dec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ws\VisionPhoto\unarr\lzmasdk\Ppmd7aDec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ws\VisionPhoto\unarr\lzmasdk\Ppmd8Dec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ws\VisionPhoto\unarr\rar\filter-rar.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ws\VisionPhoto\unarr\rar\uncompress-rar.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ws\VisionPhoto\unarr\rar\huffman-rar.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ws\VisionPhoto\unarr\rar\rar.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ws\VisionPhoto\unarr\rar\rarvm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ws\VisionPhoto\unarr\rar\parse-rar.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ws\VisionPhoto\unarr\tar\parse-tar.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ws\VisionPhoto\unarr\tar\tar.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ws\VisionPhoto\unarr\zip\inflate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ws\VisionPhoto\unarr\zip\parse-zip.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ws\VisionPhoto\unarr\zip\uncompress-zip.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ws\VisionPhoto\unarr\zip\zip.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ws\VisionPhoto\unarr\lzmasdk\LzmaDec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ws\VisionPhoto\unarr\lzmasdk\7zArcIn.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ws\VisionPhoto\unarr\lzmasdk\7zBuf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ws\VisionPhoto\unarr\lzmasdk\7zDec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ws\VisionPhoto\unarr\lzmasdk\7zStream.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ws\VisionPhoto\unarr\lzmasdk\Bcj2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ws\VisionPhoto\unarr\lzmasdk\Bra.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ws\VisionPhoto\unarr\lzmasdk\Bra86.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ws\VisionPhoto\unarr\lzmasdk\Delta.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ws\VisionPhoto\unarr\lzmasdk\Lzma2Dec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\ws\VisionPhoto\unarr\_7z\_7z.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ws\VisionPhoto\unarr\common\allocator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ws\VisionPhoto\unarr\common\unarr-imp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ws\VisionPhoto\unarr\lzmasdk\7zTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ws\VisionPhoto\unarr\lzmasdk\Compiler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ws\VisionPhoto\unarr\lzmasdk\CpuArch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ws\VisionPhoto\unarr\lzmasdk\Ppmd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ws\VisionPhoto\unarr\lzmasdk\Ppmd7.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ws\VisionPhoto\unarr\lzmasdk\Ppmd8.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ws\VisionPhoto\unarr\lzmasdk\Precomp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ws\VisionPhoto\unarr\rar\lzss.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ws\VisionPhoto\unarr\rar\rar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ws\VisionPhoto\unarr\rar\rarvm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ws\VisionPhoto\unarr\tar\tar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ws\VisionPhoto\unarr\zip\inflate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ws\VisionPhoto\unarr\zip\zip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ws\VisionPhoto\unarr\lzmasdk\LzmaDec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ws\VisionPhoto\unarr\lzmasdk\7z.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ws\VisionPhoto\unarr\lzmasdk\7zBuf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ws\VisionPhoto\unarr\lzmasdk\7zWindows.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ws\VisionPhoto\unarr\lzmasdk\Bcj2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ws\VisionPhoto\unarr\lzmasdk\Bra.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ws\VisionPhoto\unarr\lzmasdk\7zCrc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ws\VisionPhoto\unarr\lzmasdk\Delta.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ws\VisionPhoto\unarr\lzmasdk\Lzma2Dec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\ws\VisionPhoto\unarr\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{8882EDD5-8B7F-3919-9215-2BEFD68722DA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{8B134853-878C-3F93-8BDD-539F506EA2FA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

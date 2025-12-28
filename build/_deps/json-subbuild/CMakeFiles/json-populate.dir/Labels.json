@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/ws/VisionPhoto/build/_deps/json-subbuild/CMakeFiles/json-populate"
+		},
+		{
+			"file" : "D:/ws/VisionPhoto/build/_deps/json-subbuild/CMakeFiles/eb820c7e03346b16dd708b3d9e9e694e/json-populate.rule"
+		},
+		{
+			"file" : "D:/ws/VisionPhoto/build/_deps/json-subbuild/CMakeFiles/c35c0e795eab1ca028fb120d712c720b/json-populate-complete.rule"
+		},
+		{
+			"file" : "D:/ws/VisionPhoto/build/_deps/json-subbuild/CMakeFiles/c70a64dbe1e91fe81ab4ca90c0eab208/json-populate-build.rule"
+		},
+		{
+			"file" : "D:/ws/VisionPhoto/build/_deps/json-subbuild/CMakeFiles/c70a64dbe1e91fe81ab4ca90c0eab208/json-populate-configure.rule"
+		},
+		{
+			"file" : "D:/ws/VisionPhoto/build/_deps/json-subbuild/CMakeFiles/c70a64dbe1e91fe81ab4ca90c0eab208/json-populate-download.rule"
+		},
+		{
+			"file" : "D:/ws/VisionPhoto/build/_deps/json-subbuild/CMakeFiles/c70a64dbe1e91fe81ab4ca90c0eab208/json-populate-install.rule"
+		},
+		{
+			"file" : "D:/ws/VisionPhoto/build/_deps/json-subbuild/CMakeFiles/c70a64dbe1e91fe81ab4ca90c0eab208/json-populate-mkdir.rule"
+		},
+		{
+			"file" : "D:/ws/VisionPhoto/build/_deps/json-subbuild/CMakeFiles/c70a64dbe1e91fe81ab4ca90c0eab208/json-populate-patch.rule"
+		},
+		{
+			"file" : "D:/ws/VisionPhoto/build/_deps/json-subbuild/CMakeFiles/c70a64dbe1e91fe81ab4ca90c0eab208/json-populate-test.rule"
+		},
+		{
+			"file" : "D:/ws/VisionPhoto/build/_deps/json-subbuild/CMakeFiles/c70a64dbe1e91fe81ab4ca90c0eab208/json-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"json-populate"
+		],
+		"name" : "json-populate"
+	}
+}

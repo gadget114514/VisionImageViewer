@@ -1,0 +1,10 @@
+^D:\WS\VISIONPHOTO\BUILD\_DEPS\UNARR-SUBBUILD\CMAKEFILES\9E9B55C911E883A2E31FB972FCB14A92\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/ws/VisionPhoto/build/_deps/unarr-subbuild -BD:/ws/VisionPhoto/build/_deps/unarr-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/ws/VisionPhoto/build/_deps/unarr-subbuild/unarr-populate.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

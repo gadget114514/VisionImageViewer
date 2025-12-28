@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\ws\VisionPhoto\build\_deps\unarr-subbuild\CMakeFiles\a7922908f817caa7a07a18b0b7b58fa9\unarr-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\ws\VisionPhoto\build\_deps\unarr-subbuild\CMakeFiles\a7922908f817caa7a07a18b0b7b58fa9\unarr-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\ws\VisionPhoto\build\_deps\unarr-subbuild\CMakeFiles\a7922908f817caa7a07a18b0b7b58fa9\unarr-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\ws\VisionPhoto\build\_deps\unarr-subbuild\CMakeFiles\a7922908f817caa7a07a18b0b7b58fa9\unarr-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\ws\VisionPhoto\build\_deps\unarr-subbuild\CMakeFiles\a7922908f817caa7a07a18b0b7b58fa9\unarr-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\ws\VisionPhoto\build\_deps\unarr-subbuild\CMakeFiles\a7922908f817caa7a07a18b0b7b58fa9\unarr-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\ws\VisionPhoto\build\_deps\unarr-subbuild\CMakeFiles\a7922908f817caa7a07a18b0b7b58fa9\unarr-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\ws\VisionPhoto\build\_deps\unarr-subbuild\CMakeFiles\a7922908f817caa7a07a18b0b7b58fa9\unarr-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\ws\VisionPhoto\build\_deps\unarr-subbuild\CMakeFiles\6d33dfe01236c7ff1bc7faaf41278916\unarr-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\ws\VisionPhoto\build\_deps\unarr-subbuild\CMakeFiles\9e9b55c911e883a2e31fb972fcb14a92\unarr-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\ws\VisionPhoto\build\_deps\unarr-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\ws\VisionPhoto\build\_deps\unarr-subbuild\CMakeFiles\unarr-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{8C613A42-4270-36A1-94DC-332064AAEBB0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

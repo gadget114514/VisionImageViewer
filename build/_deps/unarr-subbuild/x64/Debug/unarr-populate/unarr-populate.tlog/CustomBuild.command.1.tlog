@@ -1,0 +1,152 @@
+^D:\WS\VISIONPHOTO\BUILD\_DEPS\UNARR-SUBBUILD\CMAKEFILES\A7922908F817CAA7A07A18B0B7B58FA9\UNARR-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P D:/ws/VisionPhoto/build/_deps/unarr-subbuild/unarr-populate-prefix/tmp/unarr-populate-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch D:/ws/VisionPhoto/build/_deps/unarr-subbuild/unarr-populate-prefix/src/unarr-populate-stamp/Debug/unarr-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\WS\VISIONPHOTO\BUILD\_DEPS\UNARR-SUBBUILD\CMAKEFILES\A7922908F817CAA7A07A18B0B7B58FA9\UNARR-POPULATE-DOWNLOAD.RULE
+setlocal
+cd D:\ws\VisionPhoto\build\_deps
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P D:/ws/VisionPhoto/build/_deps/unarr-subbuild/unarr-populate-prefix/src/unarr-populate-stamp/download-unarr-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P D:/ws/VisionPhoto/build/_deps/unarr-subbuild/unarr-populate-prefix/src/unarr-populate-stamp/verify-unarr-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P D:/ws/VisionPhoto/build/_deps/unarr-subbuild/unarr-populate-prefix/src/unarr-populate-stamp/extract-unarr-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch D:/ws/VisionPhoto/build/_deps/unarr-subbuild/unarr-populate-prefix/src/unarr-populate-stamp/Debug/unarr-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\WS\VISIONPHOTO\BUILD\_DEPS\UNARR-SUBBUILD\CMAKEFILES\A7922908F817CAA7A07A18B0B7B58FA9\UNARR-POPULATE-UPDATE.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch D:/ws/VisionPhoto/build/_deps/unarr-subbuild/unarr-populate-prefix/src/unarr-populate-stamp/Debug/unarr-populate-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\WS\VISIONPHOTO\BUILD\_DEPS\UNARR-SUBBUILD\CMAKEFILES\A7922908F817CAA7A07A18B0B7B58FA9\UNARR-POPULATE-PATCH.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch D:/ws/VisionPhoto/build/_deps/unarr-subbuild/unarr-populate-prefix/src/unarr-populate-stamp/Debug/unarr-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\WS\VISIONPHOTO\BUILD\_DEPS\UNARR-SUBBUILD\CMAKEFILES\A7922908F817CAA7A07A18B0B7B58FA9\UNARR-POPULATE-CONFIGURE.RULE
+setlocal
+cd D:\ws\VisionPhoto\build\_deps\unarr-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch D:/ws/VisionPhoto/build/_deps/unarr-subbuild/unarr-populate-prefix/src/unarr-populate-stamp/Debug/unarr-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\WS\VISIONPHOTO\BUILD\_DEPS\UNARR-SUBBUILD\CMAKEFILES\A7922908F817CAA7A07A18B0B7B58FA9\UNARR-POPULATE-BUILD.RULE
+setlocal
+cd D:\ws\VisionPhoto\build\_deps\unarr-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch D:/ws/VisionPhoto/build/_deps/unarr-subbuild/unarr-populate-prefix/src/unarr-populate-stamp/Debug/unarr-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\WS\VISIONPHOTO\BUILD\_DEPS\UNARR-SUBBUILD\CMAKEFILES\A7922908F817CAA7A07A18B0B7B58FA9\UNARR-POPULATE-INSTALL.RULE
+setlocal
+cd D:\ws\VisionPhoto\build\_deps\unarr-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch D:/ws/VisionPhoto/build/_deps/unarr-subbuild/unarr-populate-prefix/src/unarr-populate-stamp/Debug/unarr-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\WS\VISIONPHOTO\BUILD\_DEPS\UNARR-SUBBUILD\CMAKEFILES\A7922908F817CAA7A07A18B0B7B58FA9\UNARR-POPULATE-TEST.RULE
+setlocal
+cd D:\ws\VisionPhoto\build\_deps\unarr-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch D:/ws/VisionPhoto/build/_deps/unarr-subbuild/unarr-populate-prefix/src/unarr-populate-stamp/Debug/unarr-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\WS\VISIONPHOTO\BUILD\_DEPS\UNARR-SUBBUILD\CMAKEFILES\6D33DFE01236C7FF1BC7FAAF41278916\UNARR-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory D:/ws/VisionPhoto/build/_deps/unarr-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch D:/ws/VisionPhoto/build/_deps/unarr-subbuild/CMakeFiles/Debug/unarr-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch D:/ws/VisionPhoto/build/_deps/unarr-subbuild/unarr-populate-prefix/src/unarr-populate-stamp/Debug/unarr-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\WS\VISIONPHOTO\BUILD\_DEPS\UNARR-SUBBUILD\CMAKEFILES\9E9B55C911E883A2E31FB972FCB14A92\UNARR-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\WS\VISIONPHOTO\BUILD\_DEPS\UNARR-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/ws/VisionPhoto/build/_deps/unarr-subbuild -BD:/ws/VisionPhoto/build/_deps/unarr-subbuild --check-stamp-file D:/ws/VisionPhoto/build/_deps/unarr-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
