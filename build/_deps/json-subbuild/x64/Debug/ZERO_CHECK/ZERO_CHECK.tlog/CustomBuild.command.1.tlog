@@ -1,0 +1,10 @@
+^D:\WS\VISIONPHOTO\BUILD\_DEPS\JSON-SUBBUILD\CMAKEFILES\EB820C7E03346B16DD708B3D9E9E694E\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/ws/VisionPhoto/build/_deps/json-subbuild -BD:/ws/VisionPhoto/build/_deps/json-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/ws/VisionPhoto/build/_deps/json-subbuild/json-populate.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
