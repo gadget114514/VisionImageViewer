@@ -1,6 +1,6 @@
-^D:\WS\VISIONPHOTO\BUILD\CMAKEFILES\C8DCC4A67C3D17BB64838B571899C0DC\GENERATE.STAMP.RULE
+^D:\WS\VISIONIMAGEVIEWER\BUILD\CMAKEFILES\614AB87CD9564FC0EECFEAC6ED62AF54\GENERATE.STAMP.RULE
 setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/ws/VisionPhoto -BD:/ws/VisionPhoto/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/ws/VisionPhoto/build/VisionImageViewer.sln
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/ws/VisionImageViewer -BD:/ws/VisionImageViewer/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/ws/VisionImageViewer/build/VisionImageViewer.sln
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

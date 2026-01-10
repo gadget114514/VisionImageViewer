@@ -20,25 +20,26 @@ add_subdirectory(unarr)
 
 # Add executable
 add_executable(VisionImageViewer WIN32 
-    main.cpp
-    PluginManager.cpp
-    PluginManager.h
-    ExplorerView.cpp
-    ExplorerView.h
-    ImageView.cpp
-    ImageView.h
-    ArchiveHelper.cpp
-    ArchiveHelper.h
-    MoveHelper.cpp
-    MoveHelper.h
-    resource.rc
-    resource.h
-    MetadataHelper.h
-    TinyEXIF/TinyEXIF.cpp
-    TinyEXIF/TinyEXIF.h
+    src/main.cpp
+    src/PluginManager.cpp
+    src/PluginManager.h
+    src/ExplorerView.cpp
+    src/ExplorerView.h
+    src/ImageView.cpp
+    src/ImageView.h
+    src/ArchiveHelper.cpp
+    src/ArchiveHelper.h
+    src/MoveHelper.cpp
+    src/MoveHelper.h
+    src/resource.rc
+    src/resource.h
+    src/MetadataHelper.h
+    src/ImageViewerWindow.h
+    src/TinyEXIF/TinyEXIF.cpp
+    src/TinyEXIF/TinyEXIF.h
 )
 
-target_include_directories(VisionImageViewer PRIVATE TinyEXIF)
+target_include_directories(VisionImageViewer PRIVATE src src/TinyEXIF)
 target_compile_definitions(VisionImageViewer PRIVATE TINYEXIF_NO_XMP_SUPPORT)
 
 # Link necessary Windows libraries
@@ -66,11 +67,11 @@ add_custom_command(TARGET VisionImageViewer POST_BUILD
 
 # Test Application
 add_executable(VisionImageViewerTests 
-    test_main.cpp
-    ArchiveHelper.cpp
-    MoveHelper.cpp
-    PluginManager.cpp
-    resource.rc
+    src/test_main.cpp
+    src/ArchiveHelper.cpp
+    src/MoveHelper.cpp
+    src/PluginManager.cpp
+    src/resource.rc
 )
 target_link_libraries(VisionImageViewerTests PRIVATE
     user32 gdi32 d2d1 dwrite windowscodecs shlwapi winhttp comctl32 ole32 crypt32

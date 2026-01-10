@@ -1,7 +1,0 @@
-D:\ws\VisionPhoto\main.cpp;D:\ws\VisionPhoto\build\VisionImageViewer.dir\Release\main.obj
-D:\ws\VisionPhoto\PluginManager.cpp;D:\ws\VisionPhoto\build\VisionImageViewer.dir\Release\PluginManager.obj
-D:\ws\VisionPhoto\ExplorerView.cpp;D:\ws\VisionPhoto\build\VisionImageViewer.dir\Release\ExplorerView.obj
-D:\ws\VisionPhoto\ImageView.cpp;D:\ws\VisionPhoto\build\VisionImageViewer.dir\Release\ImageView.obj
-D:\ws\VisionPhoto\ArchiveHelper.cpp;D:\ws\VisionPhoto\build\VisionImageViewer.dir\Release\ArchiveHelper.obj
-D:\ws\VisionPhoto\MoveHelper.cpp;D:\ws\VisionPhoto\build\VisionImageViewer.dir\Release\MoveHelper.obj
-D:\ws\VisionPhoto\TinyEXIF\TinyEXIF.cpp;D:\ws\VisionPhoto\build\VisionImageViewer.dir\Release\TinyEXIF.obj

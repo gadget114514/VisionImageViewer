@@ -1,8 +1,8 @@
-# Install script for directory: D:/ws/VisionPhoto
+# Install script for directory: D:/ws/VisionImageViewer
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/NativeImageViewer")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/VisionImageViewer")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,18 +34,18 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/ws/VisionPhoto/build/_deps/json-build/cmake_install.cmake")
+  include("D:/ws/VisionImageViewer/build/_deps/json-build/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/ws/VisionPhoto/build/unarr/cmake_install.cmake")
+  include("D:/ws/VisionImageViewer/build/unarr/cmake_install.cmake")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "D:/ws/VisionPhoto/build/install_local_manifest.txt"
+  file(WRITE "D:/ws/VisionImageViewer/build/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
 if(CMAKE_INSTALL_COMPONENT)
@@ -61,6 +61,6 @@ else()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "D:/ws/VisionPhoto/build/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "D:/ws/VisionImageViewer/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

@@ -1,6 +1,6 @@
-^D:\WS\VISIONPHOTO\UNARR\CMAKELISTS.TXT
+^D:\WS\VISIONIMAGEVIEWER\UNARR\CMAKELISTS.TXT
 setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/ws/VisionPhoto -BD:/ws/VisionPhoto/build --check-stamp-file D:/ws/VisionPhoto/build/unarr/CMakeFiles/generate.stamp
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/ws/VisionImageViewer -BD:/ws/VisionImageViewer/build --check-stamp-file D:/ws/VisionImageViewer/build/unarr/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

@@ -1,71 +1,74 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="D:\ws\VisionPhoto\main.cpp">
+    <ClCompile Include="D:\ws\VisionImageViewer\src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\ws\VisionPhoto\PluginManager.cpp">
+    <ClCompile Include="D:\ws\VisionImageViewer\src\PluginManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\ws\VisionPhoto\ExplorerView.cpp">
+    <ClCompile Include="D:\ws\VisionImageViewer\src\ExplorerView.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\ws\VisionPhoto\ImageView.cpp">
+    <ClCompile Include="D:\ws\VisionImageViewer\src\ImageView.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\ws\VisionPhoto\ArchiveHelper.cpp">
+    <ClCompile Include="D:\ws\VisionImageViewer\src\ArchiveHelper.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\ws\VisionPhoto\MoveHelper.cpp">
+    <ClCompile Include="D:\ws\VisionImageViewer\src\MoveHelper.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\ws\VisionPhoto\TinyEXIF\TinyEXIF.cpp">
+    <ClCompile Include="D:\ws\VisionImageViewer\src\TinyEXIF\TinyEXIF.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="D:\ws\VisionPhoto\PluginManager.h">
+    <ClInclude Include="D:\ws\VisionImageViewer\src\PluginManager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\ws\VisionPhoto\ExplorerView.h">
+    <ClInclude Include="D:\ws\VisionImageViewer\src\ExplorerView.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\ws\VisionPhoto\ImageView.h">
+    <ClInclude Include="D:\ws\VisionImageViewer\src\ImageView.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\ws\VisionPhoto\ArchiveHelper.h">
+    <ClInclude Include="D:\ws\VisionImageViewer\src\ArchiveHelper.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\ws\VisionPhoto\MoveHelper.h">
+    <ClInclude Include="D:\ws\VisionImageViewer\src\MoveHelper.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\ws\VisionPhoto\resource.h">
+    <ClInclude Include="D:\ws\VisionImageViewer\src\resource.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\ws\VisionPhoto\MetadataHelper.h">
+    <ClInclude Include="D:\ws\VisionImageViewer\src\MetadataHelper.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\ws\VisionPhoto\TinyEXIF\TinyEXIF.h">
+    <ClInclude Include="D:\ws\VisionImageViewer\src\ImageViewerWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ws\VisionImageViewer\src\TinyEXIF\TinyEXIF.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\ws\VisionPhoto\CMakeLists.txt" />
+    <CustomBuild Include="D:\ws\VisionImageViewer\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <Natvis Include="D:\ws\VisionPhoto\build\_deps\json-src\nlohmann_json.natvis" />
+    <Natvis Include="D:\ws\VisionImageViewer\build\_deps\json-src\nlohmann_json.natvis" />
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="D:\ws\VisionPhoto\resource.rc">
+    <ResourceCompile Include="D:\ws\VisionImageViewer\src\resource.rc">
       <Filter>Source Files</Filter>
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{8882EDD5-8B7F-3919-9215-2BEFD68722DA}</UniqueIdentifier>
+      <UniqueIdentifier>{0EEE0F63-DECB-323C-81E9-3A1E5668BDC4}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{8B134853-878C-3F93-8BDD-539F506EA2FA}</UniqueIdentifier>
+      <UniqueIdentifier>{91B7FC98-4406-393D-BBA0-2C95F47B396B}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

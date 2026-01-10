@@ -2,10 +2,10 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>D:\ws\VisionPhoto\build\x64\Release\ZERO_CHECK</FullPath>
+      <FullPath>D:\ws\VisionImageViewer\build\x64\Release\ZERO_CHECK</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>D:\ws\VisionPhoto\build\unarr\Release\unarr.dll</FullPath>
+      <FullPath>D:\ws\VisionImageViewer\build\unarr\Release\unarr.dll</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

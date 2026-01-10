@@ -2,19 +2,19 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>D:\ws\VisionPhoto\build\x64\Release\ZERO_CHECK</FullPath>
+      <FullPath>D:\ws\VisionImageViewer\build\x64\Release\ZERO_CHECK</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>D:\ws\VisionPhoto\build\unarr\Release\unarr.dll</FullPath>
+      <FullPath>D:\ws\VisionImageViewer\build\unarr\Release\unarr.dll</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>D:\ws\VisionPhoto\build\Release\VisionImageViewer.exe</FullPath>
+      <FullPath>D:\ws\VisionImageViewer\build\Release\VisionImageViewer.exe</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>D:\ws\VisionPhoto\build\Release\VisionImageViewerTests.exe</FullPath>
+      <FullPath>D:\ws\VisionImageViewer\build\Release\VisionImageViewerTests.exe</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>D:\ws\VisionPhoto\build\x64\Release\ALL_BUILD</FullPath>
+      <FullPath>D:\ws\VisionImageViewer\build\x64\Release\ALL_BUILD</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

@@ -2,10 +2,10 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>D:\ws\VisionPhoto\build\_deps\json-subbuild\x64\Debug\ZERO_CHECK</FullPath>
+      <FullPath>D:\ws\VisionImageViewer\build\_deps\json-subbuild\x64\Debug\ZERO_CHECK</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>D:\ws\VisionPhoto\build\_deps\json-subbuild\x64\Debug\json-populate</FullPath>
+      <FullPath>D:\ws\VisionImageViewer\build\_deps\json-subbuild\x64\Debug\json-populate</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

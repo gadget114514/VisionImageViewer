@@ -1,4 +1,4 @@
-prefix=C:/Program Files (x86)/NativeImageViewer
+prefix=C:/Program Files (x86)/VisionImageViewer
 includedir=${prefix}/include
 libdir=${prefix}/lib
 

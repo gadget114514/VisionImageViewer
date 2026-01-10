@@ -1,8 +1,8 @@
-^D:\WS\VISIONPHOTO\BUILD\_DEPS\JSON-SUBBUILD\CMAKEFILES\C70A64DBE1E91FE81AB4CA90C0EAB208\JSON-POPULATE-MKDIR.RULE
+^D:\WS\VISIONIMAGEVIEWER\BUILD\_DEPS\JSON-SUBBUILD\CMAKEFILES\E4F7A17862C8E48BA259BA584FC58424\JSON-POPULATE-MKDIR.RULE
 setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P D:/ws/VisionPhoto/build/_deps/json-subbuild/json-populate-prefix/tmp/json-populate-mkdirs.cmake
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P D:/ws/VisionImageViewer/build/_deps/json-subbuild/json-populate-prefix/tmp/json-populate-mkdirs.cmake
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch D:/ws/VisionPhoto/build/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/Debug/json-populate-mkdir
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch D:/ws/VisionImageViewer/build/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/Debug/json-populate-mkdir
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -10,19 +10,19 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^D:\WS\VISIONPHOTO\BUILD\_DEPS\JSON-SUBBUILD\CMAKEFILES\C70A64DBE1E91FE81AB4CA90C0EAB208\JSON-POPULATE-DOWNLOAD.RULE
+^D:\WS\VISIONIMAGEVIEWER\BUILD\_DEPS\JSON-SUBBUILD\CMAKEFILES\E4F7A17862C8E48BA259BA584FC58424\JSON-POPULATE-DOWNLOAD.RULE
 setlocal
-cd D:\ws\VisionPhoto\build\_deps
+cd D:\ws\VisionImageViewer\build\_deps
 if %errorlevel% neq 0 goto :cmEnd
 D:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P D:/ws/VisionPhoto/build/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/download-json-populate.cmake
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P D:/ws/VisionImageViewer/build/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/download-json-populate.cmake
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P D:/ws/VisionPhoto/build/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/verify-json-populate.cmake
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P D:/ws/VisionImageViewer/build/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/verify-json-populate.cmake
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P D:/ws/VisionPhoto/build/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/extract-json-populate.cmake
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P D:/ws/VisionImageViewer/build/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/extract-json-populate.cmake
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch D:/ws/VisionPhoto/build/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/Debug/json-populate-download
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch D:/ws/VisionImageViewer/build/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/Debug/json-populate-download
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -30,11 +30,11 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^D:\WS\VISIONPHOTO\BUILD\_DEPS\JSON-SUBBUILD\CMAKEFILES\C70A64DBE1E91FE81AB4CA90C0EAB208\JSON-POPULATE-UPDATE.RULE
+^D:\WS\VISIONIMAGEVIEWER\BUILD\_DEPS\JSON-SUBBUILD\CMAKEFILES\E4F7A17862C8E48BA259BA584FC58424\JSON-POPULATE-UPDATE.RULE
 setlocal
 "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch D:/ws/VisionPhoto/build/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/Debug/json-populate-update
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch D:/ws/VisionImageViewer/build/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/Debug/json-populate-update
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -42,11 +42,11 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^D:\WS\VISIONPHOTO\BUILD\_DEPS\JSON-SUBBUILD\CMAKEFILES\C70A64DBE1E91FE81AB4CA90C0EAB208\JSON-POPULATE-PATCH.RULE
+^D:\WS\VISIONIMAGEVIEWER\BUILD\_DEPS\JSON-SUBBUILD\CMAKEFILES\E4F7A17862C8E48BA259BA584FC58424\JSON-POPULATE-PATCH.RULE
 setlocal
 "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch D:/ws/VisionPhoto/build/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/Debug/json-populate-patch
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch D:/ws/VisionImageViewer/build/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/Debug/json-populate-patch
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -54,31 +54,15 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^D:\WS\VISIONPHOTO\BUILD\_DEPS\JSON-SUBBUILD\CMAKEFILES\C70A64DBE1E91FE81AB4CA90C0EAB208\JSON-POPULATE-CONFIGURE.RULE
+^D:\WS\VISIONIMAGEVIEWER\BUILD\_DEPS\JSON-SUBBUILD\CMAKEFILES\E4F7A17862C8E48BA259BA584FC58424\JSON-POPULATE-CONFIGURE.RULE
 setlocal
-cd D:\ws\VisionPhoto\build\_deps\json-build
-if %errorlevel% neq 0 goto :cmEnd
-D:
-if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
-if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch D:/ws/VisionPhoto/build/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/Debug/json-populate-configure
-if %errorlevel% neq 0 goto :cmEnd
-:cmEnd
-endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
-:cmErrorLevel
-exit /b %1
-:cmDone
-if %errorlevel% neq 0 goto :VCEnd
-^D:\WS\VISIONPHOTO\BUILD\_DEPS\JSON-SUBBUILD\CMAKEFILES\C70A64DBE1E91FE81AB4CA90C0EAB208\JSON-POPULATE-BUILD.RULE
-setlocal
-cd D:\ws\VisionPhoto\build\_deps\json-build
+cd D:\ws\VisionImageViewer\build\_deps\json-build
 if %errorlevel% neq 0 goto :cmEnd
 D:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch D:/ws/VisionPhoto/build/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/Debug/json-populate-build
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch D:/ws/VisionImageViewer/build/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/Debug/json-populate-configure
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -86,15 +70,15 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^D:\WS\VISIONPHOTO\BUILD\_DEPS\JSON-SUBBUILD\CMAKEFILES\C70A64DBE1E91FE81AB4CA90C0EAB208\JSON-POPULATE-INSTALL.RULE
+^D:\WS\VISIONIMAGEVIEWER\BUILD\_DEPS\JSON-SUBBUILD\CMAKEFILES\E4F7A17862C8E48BA259BA584FC58424\JSON-POPULATE-BUILD.RULE
 setlocal
-cd D:\ws\VisionPhoto\build\_deps\json-build
+cd D:\ws\VisionImageViewer\build\_deps\json-build
 if %errorlevel% neq 0 goto :cmEnd
 D:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch D:/ws/VisionPhoto/build/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/Debug/json-populate-install
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch D:/ws/VisionImageViewer/build/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/Debug/json-populate-build
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -102,15 +86,15 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^D:\WS\VISIONPHOTO\BUILD\_DEPS\JSON-SUBBUILD\CMAKEFILES\C70A64DBE1E91FE81AB4CA90C0EAB208\JSON-POPULATE-TEST.RULE
+^D:\WS\VISIONIMAGEVIEWER\BUILD\_DEPS\JSON-SUBBUILD\CMAKEFILES\E4F7A17862C8E48BA259BA584FC58424\JSON-POPULATE-INSTALL.RULE
 setlocal
-cd D:\ws\VisionPhoto\build\_deps\json-build
+cd D:\ws\VisionImageViewer\build\_deps\json-build
 if %errorlevel% neq 0 goto :cmEnd
 D:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch D:/ws/VisionPhoto/build/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/Debug/json-populate-test
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch D:/ws/VisionImageViewer/build/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/Debug/json-populate-install
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -118,13 +102,15 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^D:\WS\VISIONPHOTO\BUILD\_DEPS\JSON-SUBBUILD\CMAKEFILES\C35C0E795EAB1CA028FB120D712C720B\JSON-POPULATE-COMPLETE.RULE
+^D:\WS\VISIONIMAGEVIEWER\BUILD\_DEPS\JSON-SUBBUILD\CMAKEFILES\E4F7A17862C8E48BA259BA584FC58424\JSON-POPULATE-TEST.RULE
 setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory D:/ws/VisionPhoto/build/_deps/json-subbuild/CMakeFiles/Debug
+cd D:\ws\VisionImageViewer\build\_deps\json-build
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch D:/ws/VisionPhoto/build/_deps/json-subbuild/CMakeFiles/Debug/json-populate-complete
+D:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch D:/ws/VisionPhoto/build/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/Debug/json-populate-done
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch D:/ws/VisionImageViewer/build/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/Debug/json-populate-test
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -132,7 +118,21 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^D:\WS\VISIONPHOTO\BUILD\_DEPS\JSON-SUBBUILD\CMAKEFILES\EB820C7E03346B16DD708B3D9E9E694E\JSON-POPULATE.RULE
+^D:\WS\VISIONIMAGEVIEWER\BUILD\_DEPS\JSON-SUBBUILD\CMAKEFILES\F7F2D4A6451174C233C12509B5590AC6\JSON-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory D:/ws/VisionImageViewer/build/_deps/json-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch D:/ws/VisionImageViewer/build/_deps/json-subbuild/CMakeFiles/Debug/json-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch D:/ws/VisionImageViewer/build/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/Debug/json-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\WS\VISIONIMAGEVIEWER\BUILD\_DEPS\JSON-SUBBUILD\CMAKEFILES\CE56DF633876705B79939AD3AC627F50\JSON-POPULATE.RULE
 setlocal
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -140,9 +140,9 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^D:\WS\VISIONPHOTO\BUILD\_DEPS\JSON-SUBBUILD\CMAKELISTS.TXT
+^D:\WS\VISIONIMAGEVIEWER\BUILD\_DEPS\JSON-SUBBUILD\CMAKELISTS.TXT
 setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/ws/VisionPhoto/build/_deps/json-subbuild -BD:/ws/VisionPhoto/build/_deps/json-subbuild --check-stamp-file D:/ws/VisionPhoto/build/_deps/json-subbuild/CMakeFiles/generate.stamp
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/ws/VisionImageViewer/build/_deps/json-subbuild -BD:/ws/VisionImageViewer/build/_deps/json-subbuild --check-stamp-file D:/ws/VisionImageViewer/build/_deps/json-subbuild/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

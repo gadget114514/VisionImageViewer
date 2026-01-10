@@ -4,7 +4,7 @@ C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtens
 C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/ExternalProject/shared_internal_commands.cmake
 C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/GNUInstallDirs.cmake
 C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/WriteBasicConfigVersionFile.cmake
-D:/ws/VisionPhoto/build/_deps/json-src/CMakeLists.txt
-D:/ws/VisionPhoto/build/_deps/json-src/cmake/config.cmake.in
-D:/ws/VisionPhoto/build/_deps/json-src/cmake/nlohmann_jsonConfigVersion.cmake.in
-D:/ws/VisionPhoto/build/_deps/json-src/cmake/pkg-config.pc.in
+D:/ws/VisionImageViewer/build/_deps/json-src/CMakeLists.txt
+D:/ws/VisionImageViewer/build/_deps/json-src/cmake/config.cmake.in
+D:/ws/VisionImageViewer/build/_deps/json-src/cmake/nlohmann_jsonConfigVersion.cmake.in
+D:/ws/VisionImageViewer/build/_deps/json-src/cmake/pkg-config.pc.in

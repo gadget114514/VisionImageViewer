@@ -1,8 +1,8 @@
-# Install script for directory: D:/ws/VisionPhoto/build/_deps/json-src
+# Install script for directory: D:/ws/VisionImageViewer/build/_deps/json-src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/NativeImageViewer")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/VisionImageViewer")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -35,6 +35,6 @@ endif()
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "D:/ws/VisionPhoto/build/_deps/json-build/install_local_manifest.txt"
+  file(WRITE "D:/ws/VisionImageViewer/build/_deps/json-build/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

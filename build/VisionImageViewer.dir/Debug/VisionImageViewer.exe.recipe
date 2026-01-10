@@ -2,13 +2,13 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>D:\ws\VisionPhoto\build\x64\Debug\ZERO_CHECK</FullPath>
+      <FullPath>D:\ws\VisionImageViewer\build\x64\Debug\ZERO_CHECK</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>D:\ws\VisionPhoto\build\unarr\Debug\unarr.dll</FullPath>
+      <FullPath>D:\ws\VisionImageViewer\build\unarr\Debug\unarr.dll</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>D:\ws\VisionPhoto\build\Debug\VisionImageViewer.exe</FullPath>
+      <FullPath>D:\ws\VisionImageViewer\build\Debug\VisionImageViewer.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

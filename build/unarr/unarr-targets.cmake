@@ -51,35 +51,35 @@ add_library(unarr::unarr SHARED IMPORTED)
 
 set_target_properties(unarr::unarr PROPERTIES
   INTERFACE_COMPILE_DEFINITIONS "UNARR_IS_SHARED_LIBRARY"
-  INTERFACE_INCLUDE_DIRECTORIES "D:/ws/VisionPhoto/unarr"
+  INTERFACE_INCLUDE_DIRECTORIES "D:/ws/VisionImageViewer/unarr"
 )
 
 # Import target "unarr::unarr" for configuration "Debug"
 set_property(TARGET unarr::unarr APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(unarr::unarr PROPERTIES
-  IMPORTED_IMPLIB_DEBUG "D:/ws/VisionPhoto/build/unarr/Debug/unarr.lib"
-  IMPORTED_LOCATION_DEBUG "D:/ws/VisionPhoto/build/unarr/Debug/unarr.dll"
+  IMPORTED_IMPLIB_DEBUG "D:/ws/VisionImageViewer/build/unarr/Debug/unarr.lib"
+  IMPORTED_LOCATION_DEBUG "D:/ws/VisionImageViewer/build/unarr/Debug/unarr.dll"
   )
 
 # Import target "unarr::unarr" for configuration "Release"
 set_property(TARGET unarr::unarr APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(unarr::unarr PROPERTIES
-  IMPORTED_IMPLIB_RELEASE "D:/ws/VisionPhoto/build/unarr/Release/unarr.lib"
-  IMPORTED_LOCATION_RELEASE "D:/ws/VisionPhoto/build/unarr/Release/unarr.dll"
+  IMPORTED_IMPLIB_RELEASE "D:/ws/VisionImageViewer/build/unarr/Release/unarr.lib"
+  IMPORTED_LOCATION_RELEASE "D:/ws/VisionImageViewer/build/unarr/Release/unarr.dll"
   )
 
 # Import target "unarr::unarr" for configuration "MinSizeRel"
 set_property(TARGET unarr::unarr APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(unarr::unarr PROPERTIES
-  IMPORTED_IMPLIB_MINSIZEREL "D:/ws/VisionPhoto/build/unarr/MinSizeRel/unarr.lib"
-  IMPORTED_LOCATION_MINSIZEREL "D:/ws/VisionPhoto/build/unarr/MinSizeRel/unarr.dll"
+  IMPORTED_IMPLIB_MINSIZEREL "D:/ws/VisionImageViewer/build/unarr/MinSizeRel/unarr.lib"
+  IMPORTED_LOCATION_MINSIZEREL "D:/ws/VisionImageViewer/build/unarr/MinSizeRel/unarr.dll"
   )
 
 # Import target "unarr::unarr" for configuration "RelWithDebInfo"
 set_property(TARGET unarr::unarr APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(unarr::unarr PROPERTIES
-  IMPORTED_IMPLIB_RELWITHDEBINFO "D:/ws/VisionPhoto/build/unarr/RelWithDebInfo/unarr.lib"
-  IMPORTED_LOCATION_RELWITHDEBINFO "D:/ws/VisionPhoto/build/unarr/RelWithDebInfo/unarr.dll"
+  IMPORTED_IMPLIB_RELWITHDEBINFO "D:/ws/VisionImageViewer/build/unarr/RelWithDebInfo/unarr.lib"
+  IMPORTED_LOCATION_RELWITHDEBINFO "D:/ws/VisionImageViewer/build/unarr/RelWithDebInfo/unarr.dll"
   )
 
 # This file does not depend on other imported targets which have

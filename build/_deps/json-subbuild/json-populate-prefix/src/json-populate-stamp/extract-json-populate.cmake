@@ -5,8 +5,8 @@ cmake_minimum_required(VERSION ${CMAKE_VERSION}) # this file comes with cmake
 
 # Make file names absolute:
 #
-get_filename_component(filename "D:/ws/VisionPhoto/build/_deps/json-subbuild/json-populate-prefix/src/json.tar.xz" ABSOLUTE)
-get_filename_component(directory "D:/ws/VisionPhoto/build/_deps/json-src" ABSOLUTE)
+get_filename_component(filename "D:/ws/VisionImageViewer/build/_deps/json-subbuild/json-populate-prefix/src/json.tar.xz" ABSOLUTE)
+get_filename_component(directory "D:/ws/VisionImageViewer/build/_deps/json-src" ABSOLUTE)
 
 message(VERBOSE "extracting...
      src='${filename}'
